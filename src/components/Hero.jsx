@@ -1,9 +1,11 @@
 import React from 'react';
 import vrguy from "/mobile/image-interactive.jpg"
+import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
   return (
     <section className='container mx-auto px-6 py-8 md:px-0'>
+      <Fade bottom>
       <section className='flex flex-col my-12 gap-8 md:relative md:my-24'>
         <div>
           <img src={vrguy} alt="interaction photo" />
@@ -18,7 +20,7 @@ const Hero = () => {
           </p>
         </article>
       </section>
-
+      </Fade>
     </section>
   )
 }
