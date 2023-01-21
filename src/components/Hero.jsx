@@ -3,7 +3,7 @@ import vrguy from "/mobile/image-interactive.jpg"
 
 const Hero = () => {
   return (
-    <div className='container mx-auto px-6 py-8 md:px-0'>
+    <section className='container mx-auto px-6 py-8 md:px-0'>
       <section className='flex flex-col my-12 gap-8 md:relative md:my-24'>
         <div>
           <img src={vrguy} alt="interaction photo" />
@@ -19,7 +19,7 @@ const Hero = () => {
         </article>
       </section>
 
-    </div>
+    </section>
   )
 }
 

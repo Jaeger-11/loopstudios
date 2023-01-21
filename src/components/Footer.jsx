@@ -12,11 +12,11 @@ const Footer = () => {
             <section>
                 <img src={logo} alt="" className='mx-auto md:mx-0 md:h-6' />
                 <div className='flex flex-col gap-4 my-8 md:flex-row md:my-4 md:text-[15px] md:gap-8 md:font-light'>
-                    <p className='menuitems pb-2'><a href='/' >About</a></p>
-                    <p className='menuitems pb-2'><a href='/'>Careers</a></p>
-                    <p className='menuitems pb-2'><a href='/'>Events</a></p>
-                    <p className='menuitems pb-2'><a href='/'>Products</a></p>
-                    <p className='menuitems pb-2'><a href='/'>Support</a></p>
+                    <p ><a href='/' className='menuitems pb-2'>About</a></p>
+                    <p ><a href='/' className='menuitems pb-2'>Careers</a></p>
+                    <p ><a href='/' className='menuitems pb-2'>Events</a></p>
+                    <p ><a href='/' className='menuitems pb-2'>Products</a></p>
+                    <p ><a href='/' className='menuitems pb-2'>Support</a></p>
                 </div>
             </section>
             <section className='md:text-right'>

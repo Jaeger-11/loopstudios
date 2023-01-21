@@ -16,7 +16,7 @@ const Header = () => {
   }
 
   return (
-    <div className='bg-mobile-header bg-cover px-4 sm:py-6 md:homeback md:bg-desktop-header'>
+    <section className='bg-mobile-header bg-cover px-4 sm:py-6 md:homeback md:bg-desktop-header'>
       {isSideMenu ? <MobileNav close={closeSideMenu}/> : undefined }
         <section className='relative container pt-4 flex flex-col h-[100vh] mx-auto'>
           <nav className='absolute top-4 w-full flex justify-between px-2'>
@@ -41,7 +41,7 @@ const Header = () => {
               </h3>
           </article>
         </section>
-    </div>
+    </section>
   )
 }
 
