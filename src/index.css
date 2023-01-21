@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.homeback{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  background-size: cover;
+}
+
+.menuitems{
+  position: relative;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.menuitems::after{
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 0.15rem;
+  left: 25%;
+  transform: scale(0,1);
+  bottom: 0;
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+
+.menuitems:hover::after{
+  transform: scale(1,1);
+}
