@@ -13,7 +13,6 @@ function App() {
       <Hero/>
       <Creations/>
       <Footer/>
-      {/* <h3 className='text-3xl'>Jaeger-11 Boilerplate</h3> */}
     </div>
   )
 }
